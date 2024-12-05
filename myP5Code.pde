@@ -11,18 +11,28 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
-  
+    background(94, 206, 223);  
   // The ground
   rect(0, 300, 400, 100);  
 
   // The sun
+   fill(255,255,204);
   ellipse(80, 64, 100, 100);  
-
+ 
   // The snowman
+   fill(255,255,255);
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
+// scarf
+ fill(255,0,0);
+rect(165, 140,70, 25);
+rect(165, 140,30, 40);
+
+// scarf
+fill(255,0,0);
+line(165, 140,70, 25);
 
 }
 
